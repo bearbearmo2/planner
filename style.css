@@ -78,4 +78,8 @@ p{
       border-width: 5px;
       border-style: solid;
     }
+
+    p{
+        font-size: 10px;
+    }
 }
