@@ -10,21 +10,25 @@
   <body>
     <h1 id = "day"></h1>
     <div id = "contents">
-        <div class = "subcontainer" id = "lcontainer">
+        <div class = "subcontainer" id = "l">
             <h2 class = "subheading">Learn:</h2>
             <p id = "learning" class = "info"></p>
+            <button class = "checkbox" onclick = "pressed(this)" id = "B1"><checkmark class = "checkmark"></checkmark></button>
         </div>
-        <div class = "subcontainer" id = "pcontainer">
+        <div class = "subcontainer" id = "p">
             <h2 class = "subheading">Projects:</h2>
             <p id = "projects" class = "info"></p>
+            <button class = "checkbox" onclick = "pressed(this)" id = "B2"><checkmark class = "checkmark"></checkmark></button>
         </div>
-        <div class = "subcontainer" id = "econtainer">
+        <div class = "subcontainer" id = "e">
             <h2 class = "subheading">Exercise:</h2>
             <p id = "exercise" class = "info"></p>
+            <button class = "checkbox" onclick = "pressed(this)" id = "B3"><checkmark class = "checkmark"></checkmark></button>
         </div>
-        <div class = "subcontainer" id = "ocontainer">
+        <div class = "subcontainer" id = "o">
             <h2 class = "subheading">Other:</h2>
             <p id = "other" class = "info"></p>
+            <button class = "checkbox" onclick = "pressed(this)" id = "B4"><checkmark class = "checkmark"></checkmark></button>
         </div>
     </div>
     <script src="backend.js"></script>

@@ -15,6 +15,19 @@ for(let i = 0; i < containers.length; i++){
     containers[i].getElementsByClassName("info")[0].style["color"] = day.pallet[i+1][1];
 }
 
- document.body.style["background-color"] = day.pallet[0][0]
- document.body.style["color"] = day.pallet[0][1]
- document.querySelector('meta[name="theme-color"]').setAttribute('content',  day.pallet[0][0]);
+document.body.style["background-color"] = day.pallet[0][0]
+document.body.style["color"] = day.pallet[0][1]
+document.querySelector('meta[name="theme-color"]').setAttribute('content',  day.pallet[0][0]);
+
+let buttons = {};
+
+function pressed(button){
+    if(buttons[button.id]){
+        button.style["background-color"] = "white";
+        delete buttons[button.id];
+    }
+    else{
+        button.style["background-color"] = "hsl(205, 57%, 9%)";
+        buttons[button.id] = true;
+    }
+}
