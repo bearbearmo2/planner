@@ -62,5 +62,5 @@ const days = [{
         pallet: []
     }
 ];
-const day = days[date.getDay()+1];
+const day = days[date.getDay()];
 const data = ["learning", "projects", "exercise", "other"];
