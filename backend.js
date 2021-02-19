@@ -1,10 +1,10 @@
 const date = new Date(new Date().toLocaleString("en-US", {timeZone: "Pacific/Auckland"}));
 const days = [{
         name: "Sunday",
-        learning: "",
-        projects: "",
-        exercise: "",
-        other: "",
+        learning: "Maths: continue natural logs\nPhysics: continue basic mechanics",
+        projects: "make a solid room in unity",
+        exercise: "park bikeride\n5 pull ups at the bars",
+        other: "read book\ndo some welsh",
         pallet: [
             ["hsl(157, 16%, 28%)", "hsl(157, 16%, 70%)"],
             ["hsl(320, 17%, 17%)", "hsl(320, 17%, 70%)"], 
@@ -79,10 +79,10 @@ const days = [{
     },
     {
         name: "Saturday",
-        learning: "",
-        projects: "",
-        exercise: "",
-        other: "",
+        learning: "Maths: continue natural logs\nPhysics: continue basic mechanics",
+        projects: "make a moveable character in unity",
+        exercise: "park bikeride\n5 pull ups at the bars",
+        other: "read book\ndo some welsh",
         pallet: [
             ["hsl(215, 50%, 23%)", "hsl(215, 50%, 70%)"], 
             ["hsl(203, 39%, 44%)", "hsl(203, 39%, 70%)"], 
